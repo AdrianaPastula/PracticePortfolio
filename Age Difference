@@ -1,0 +1,10 @@
+let myAge= 43
+let hisAge= 45
+let combinedAge= (Math.abs(myAge-hisAge))
+
+if (combinedAge>13) {
+  console.log(`Your age difference is ${combinedAge} years, that's too wide! Find someone your own age!`);
+}
+else {
+  console.log(`Your age difference is ${combinedAge} years. This is fine, I guess.`);
+}
